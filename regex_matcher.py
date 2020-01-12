@@ -1,6 +1,3 @@
-from typing import List
-
-
 class Solution:
     def __init__(self):
         pass
@@ -15,10 +12,10 @@ class Solution:
         if j == len(input_str):
             return True if len(regex) - i == regex[i:].count("*") else False
         if regex[i] == input_str[j]:
-            return self.is_matching_regex_helper(regex, input_str, i+1, j+1)
+            return self.is_matching_regex_helper(regex, input_str, i + 1, j + 1)
         if regex[i] == "*":
-            for x in range(j, len(input_str)+1):
-                is_matching = is_matching or self.is_matching_regex_helper(regex, input_str, i+1, x)
+            for x in range(j, len(input_str) + 1):
+                is_matching = is_matching or self.is_matching_regex_helper(regex, input_str, i + 1, x)
         return is_matching
 
 
