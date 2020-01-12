@@ -6,7 +6,6 @@ class Solution:
         return self.is_matching_regex_helper(regex, input_str, 0, 0)
 
     def is_matching_regex_helper(self, regex: str, input_str: str, i: int, j: int) -> bool:
-        is_matching = False
         if i == len(regex):
             return j == len(input_str)
         if j == len(input_str):
@@ -17,7 +16,6 @@ class Solution:
             return self.is_matching_regex_helper(regex, input_str, i + 1, j) or self.is_matching_regex_helper(regex,
                                                                                                               input_str,
                                                                                                               i, j + 1)
-        return is_matching
 
 
 a = Solution()
