@@ -71,8 +71,8 @@ another_tree = Tree(10, Tree(20, Tree(40), Tree(50)), Tree(30, Tree(60), Tree(70
 print("Printing In Order of a tree:")
 another_tree.print_in_order_tree()
 
-print("Printing In Order of a tree:")
+print("Printing Pre Order of a tree:")
 another_tree.print_pre_order_tree()
 
-print("Printing In Order of a tree:")
+print("Printing Post Order of a tree:")
 another_tree.print_post_order_tree()
