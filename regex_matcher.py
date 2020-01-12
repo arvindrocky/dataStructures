@@ -10,7 +10,7 @@ class Solution:
         if i == len(regex):
             return j == len(input_str)
         if j == len(input_str):
-            return True if len(regex) - i == regex[i:].count("*") else False
+            return len(regex) - i == regex[i:].count("*")
         if regex[i] == input_str[j]:
             return self.is_matching_regex_helper(regex, input_str, i + 1, j + 1)
         if regex[i] == "*":
