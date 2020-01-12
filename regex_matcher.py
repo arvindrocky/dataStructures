@@ -37,4 +37,4 @@ print(True == a.is_matching_regex("a*b", "ab"))
 print(True == a.is_matching_regex("a*b", "acb"))
 print(True == a.is_matching_regex("a*b", "abdb"))
 print(False == a.is_matching_regex("a*b", "ac"))
-
+print(True if a.is_matching_regex("ab*c*d", "abccaabd") else False)
