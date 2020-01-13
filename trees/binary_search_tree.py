@@ -1,6 +1,6 @@
 class BST:
-    def __init__(self, value):
-        self.value = value
+    def __init__(self, value: int):
+        self.value: int = value
         self.left_node: BST = None
         self.right_node: BST = None
 
