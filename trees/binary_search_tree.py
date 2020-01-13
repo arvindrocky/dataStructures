@@ -32,6 +32,9 @@ bst.print_in_order_tree()
 
 bst.insert_node(50)
 bst.insert_node(150)
+bst.insert_node(20)
+bst.insert_node(125)
+bst.insert_node(130)
 
-print("Printing tree with left and right children:")
+print("Printing In Order of a tree:")
 bst.print_in_order_tree()

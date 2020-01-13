@@ -76,3 +76,7 @@ another_tree.print_pre_order_tree()
 
 print("Printing Post Order of a tree:")
 another_tree.print_post_order_tree()
+
+print("Printing Order of a tree1:")
+tree_1 = Tree(1, Tree(2, Tree(4), Tree(5)), Tree(3, Tree(6), Tree(7)))
+tree_1.print_pre_order_tree()
