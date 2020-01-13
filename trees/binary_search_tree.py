@@ -38,3 +38,14 @@ bst.insert_node(130)
 
 print("Printing In Order of a tree:")
 bst.print_in_order_tree()
+
+bst1 = BST(1)
+bst1.insert_node(2)
+bst1.insert_node(3)
+bst1.insert_node(4)
+bst1.insert_node(5)
+bst1.insert_node(6)
+bst1.insert_node(7)
+
+print("Printing In Order of another tree which is BFT:")
+bst1.print_in_order_tree()

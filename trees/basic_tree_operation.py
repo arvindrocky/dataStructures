@@ -18,6 +18,7 @@ class Tree:
             self.right_node.print_tree()
 
     def print_in_order_tree(self) -> None:
+        # left, root, right
         if self.left_node:
             self.left_node.print_in_order_tree()
         print(self.value)
@@ -25,6 +26,7 @@ class Tree:
             self.right_node.print_in_order_tree()
 
     def print_pre_order_tree(self) -> None:
+        # root, left, right
         print(self.value)
         if self.left_node:
             self.left_node.print_pre_order_tree()
@@ -32,6 +34,7 @@ class Tree:
             self.right_node.print_pre_order_tree()
 
     def print_post_order_tree(self) -> None:
+        # left, right, root
         if self.left_node:
             self.left_node.print_post_order_tree()
         if self.right_node:
@@ -77,6 +80,12 @@ another_tree.print_pre_order_tree()
 print("Printing Post Order of a tree:")
 another_tree.print_post_order_tree()
 
-print("Printing Order of a tree1:")
 tree_1 = Tree(1, Tree(2, Tree(4), Tree(5)), Tree(3, Tree(6), Tree(7)))
+print("Printing In Order of a tree1:")
+tree_1.print_in_order_tree()
+
+print("Printing Pre Order of a tree1:")
 tree_1.print_pre_order_tree()
+
+print("Printing Post Order of a tree1:")
+tree_1.print_post_order_tree()
