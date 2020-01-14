@@ -19,11 +19,15 @@ class BSTOperations:
         return node
 
     @staticmethod
-    def delete_node(node: Node, value: int) -> None:
+    def delete_node(node: Node, value: int) -> Node:
         if not node:
             print("Unable to find a node to delete")
             return
         if value == node.value:
+            if node.right_node and not node.left_node:
+                return node.right_node
+            if node.left_node and not node.right_node:
+                return node.left_node
             return None
         elif value < node.value:
             node.left_node = BSTOperations.delete_node(node.left_node, value)
@@ -97,7 +101,7 @@ BSTOperations.print_post_order_of_tree(sample_bst)
 sample_bst1 = Node(100)
 BSTOperations.insert_node(sample_bst1, 50)
 BSTOperations.insert_node(sample_bst1, 40)
-BSTOperations.insert_node(sample_bst1, 60)
+#BSTOperations.insert_node(sample_bst1, 60)
 BSTOperations.insert_node(sample_bst1, 120)
 BSTOperations.insert_node(sample_bst1, 110)
 BSTOperations.insert_node(sample_bst1, 130)
@@ -105,6 +109,6 @@ BSTOperations.insert_node(sample_bst1, 130)
 print("Printing In Order of a tree after inserting new nodes:")
 BSTOperations.print_in_order_of_tree(sample_bst1)
 
-BSTOperations.delete_node(sample_bst1, 60)
+BSTOperations.delete_node(sample_bst1, 50)
 print("Printing In Order of a tree after deleting a node:")
 BSTOperations.print_in_order_of_tree(sample_bst1)
