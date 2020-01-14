@@ -41,6 +41,18 @@ class Tree:
             self.right_node.print_post_order_tree()
         print(self.value)
 
+    def print_bft_of_tree(self, is_root: bool = True) -> None:
+        if is_root:
+            print(self.value)
+        if self.left_node:
+            print(self.left_node.value)
+        if self.right_node:
+            print(self.right_node.value)
+        if self.left_node:
+            self.left_node.print_bft_of_tree(False)
+        if self.right_node:
+            self.right_node.print_bft_of_tree(False)
+
 
 tree = Tree(10)
 print("Printing tree with only root:")
@@ -89,3 +101,6 @@ tree_1.print_pre_order_tree()
 
 print("Printing Post Order of a tree1:")
 tree_1.print_post_order_tree()
+
+print("Printing BFS a tree1:")
+tree_1.print_bft_of_tree()
