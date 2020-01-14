@@ -33,6 +33,7 @@ class BSTOperations:
                 min_node.right_node = node.right_node
                 del node
                 return min_node
+            del node
             return None
         elif value < node.value:
             node.left_node = BSTOperations.delete_node(node.left_node, value)
