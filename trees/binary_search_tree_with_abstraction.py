@@ -4,6 +4,7 @@ class Node:
         self.left_node: Node = left_child
         self.right_node: Node = right_child
 
+
 class BSTOperations:
     def __init__(self):
         pass
@@ -45,6 +46,12 @@ class BSTOperations:
     def find_min_node(node: Node) -> Node:
         if node.left_node:
             return BSTOperations.find_min_node(node.left_node)
+        return node
+
+    @staticmethod
+    def find_max_node(node: Node) -> Node:
+        if node.right_node:
+            return BSTOperations.find_max_node(node.right_node)
         return node
 
     @staticmethod
@@ -128,3 +135,7 @@ BSTOperations.print_in_order_of_tree(sample_bst1)
 print("Finding min node")
 min_node_of_bst = BSTOperations.find_min_node(sample_bst1)
 print(min_node_of_bst.value)
+
+print("Finding max node")
+max_node_of_bst = BSTOperations.find_max_node(sample_bst1)
+print(max_node_of_bst.value)
