@@ -1,3 +1,5 @@
+import queue
+
 class Tree:
     def __init__(self, value, left_node: 'Tree' = None, right_node: 'Tree' = None):
         self.left_node: Tree = left_node
@@ -53,6 +55,17 @@ class Tree:
         if self.right_node:
             self.right_node.print_bft_of_tree(False)
 
+    def print_bft_of_tree_using_queues(self) -> None:
+        bft_queue: queue = queue.Queue(0)
+        bft_queue.put(self)
+        while not bft_queue.empty():
+            current_node: Tree = bft_queue.get()
+            print(current_node.value)
+            if current_node.left_node:
+                bft_queue.put(current_node.left_node)
+            if current_node.right_node:
+                bft_queue.put(current_node.right_node)
+
 
 tree = Tree(10)
 print("Printing tree with only root:")
@@ -102,5 +115,8 @@ tree_1.print_pre_order_tree()
 print("Printing Post Order of a tree1:")
 tree_1.print_post_order_tree()
 
-print("Printing BFS a tree1:")
+print("Printing BFT of tree1:")
 tree_1.print_bft_of_tree()
+
+print("Printing BFT of tree1 using queues:")
+tree_1.print_bft_of_tree_using_queues()
