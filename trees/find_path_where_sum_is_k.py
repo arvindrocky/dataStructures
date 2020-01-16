@@ -21,8 +21,25 @@ class Solution:
         return self.find_path_where_sum_is_k(node.left_node, k - node.value, temp_result) or \
                self.find_path_where_sum_is_k(node.right_node, k - node.value, temp_result)
 
+    def find_all_paths_where_sum_is_k(self, node: Node, k: int, result: List = []):
+        if not node:
+            return
+        temp_result = result.copy()
+        temp_result.append(node.value)
+        if node.value == k and not node.left_node and not node.right_node:
+            print("Path: {}".format(temp_result))
+            return
+        if node.value > k:
+            return
+        self.find_all_paths_where_sum_is_k(node.left_node, k - node.value, temp_result)
+        self.find_all_paths_where_sum_is_k(node.right_node, k - node.value, temp_result)
+
 
 sample_tree = Node(1, Node(2, Node(4), Node(5)), Node(3, Node(4), Node(6)))
 target_sum = 8
-a = Solution()
-print(a.find_path_where_sum_is_k(sample_tree, target_sum))
+sol = Solution()
+print("Finding the first path whose sum is equal to {}".format(target_sum))
+print(sol.find_path_where_sum_is_k(sample_tree, target_sum))
+
+print("Finding all paths whose sum is equal to {}".format(target_sum))
+sol.find_all_paths_where_sum_is_k(sample_tree, target_sum)
