@@ -1,4 +1,6 @@
 import queue
+import sys
+
 
 class Node:
     def __init__(self, value: int, left_child: 'Node' = None, right_child: 'Node' = None):
@@ -185,6 +187,15 @@ class BSTOperations:
                     bst_queue.put(popped_level + 1)
                     bst_queue.put(popped_node.right_node)
 
+    @staticmethod
+    def is_valid_bst(node: Node, min: int = -1, max: int = sys.maxsize) -> bool:
+        if not node:
+            return True
+        if min < node.value <= max:
+            return BSTOperations.is_valid_bst(node.left_node, min, node.value) and BSTOperations.is_valid_bst(
+                    node.right_node, node.value, max)
+        return False
+
 
 sample_bst = Node(100, Node(50, Node(40), Node(60)), Node(150, Node(140), Node(160)))
 
@@ -203,44 +214,51 @@ BSTOperations.print_pre_order_of_tree(sample_bst)
 print("Printing Post Order of a tree:")
 BSTOperations.print_post_order_of_tree(sample_bst)
 
-sample_bst1 = Node(100)
-BSTOperations.insert_node(sample_bst1, 50)
-BSTOperations.insert_node(sample_bst1, 40)
-BSTOperations.insert_node(sample_bst1, 60)
-BSTOperations.insert_node(sample_bst1, 120)
-BSTOperations.insert_node(sample_bst1, 110)
-BSTOperations.insert_node(sample_bst1, 130)
-BSTOperations.insert_node(sample_bst1, 150)
+sample_bst_1 = Node(100)
+BSTOperations.insert_node(sample_bst_1, 50)
+BSTOperations.insert_node(sample_bst_1, 40)
+BSTOperations.insert_node(sample_bst_1, 60)
+BSTOperations.insert_node(sample_bst_1, 120)
+BSTOperations.insert_node(sample_bst_1, 110)
+BSTOperations.insert_node(sample_bst_1, 130)
+BSTOperations.insert_node(sample_bst_1, 150)
 
 print("Printing In Order of a tree after inserting new nodes:")
-BSTOperations.print_in_order_of_tree(sample_bst1)
+BSTOperations.print_in_order_of_tree(sample_bst_1)
 
-BSTOperations.delete_node(sample_bst1, 50)
+BSTOperations.delete_node(sample_bst_1, 50)
 print("Printing In Order of a tree after deleting a node:")
-BSTOperations.print_in_order_of_tree(sample_bst1)
+BSTOperations.print_in_order_of_tree(sample_bst_1)
 
 print("Finding min node")
-min_node_of_bst = BSTOperations.find_min_node(sample_bst1)
+min_node_of_bst = BSTOperations.find_min_node(sample_bst_1)
 print(min_node_of_bst.value)
 
 print("Finding max node")
-max_node_of_bst = BSTOperations.find_max_node(sample_bst1)
+max_node_of_bst = BSTOperations.find_max_node(sample_bst_1)
 print(max_node_of_bst.value)
 
 print("Printing BST of a tree:")
-BSTOperations.print_bst_of_tree(sample_bst1)
+BSTOperations.print_bst_of_tree(sample_bst_1)
 
 print("Printing BST of a tree-1:")
-BSTOperations.print_bst_of_tree_1(sample_bst1)
+BSTOperations.print_bst_of_tree_1(sample_bst_1)
 
 print("Printing all nodes of a tree at level k:")
-BSTOperations.print_all_nodes_at_level_k(sample_bst1, 3)
+BSTOperations.print_all_nodes_at_level_k(sample_bst_1, 3)
 
 print("Printing all nodes of a tree at level k-1:")
-BSTOperations.print_all_nodes_at_level_k_1(sample_bst1, 3)
+BSTOperations.print_all_nodes_at_level_k_1(sample_bst_1, 3)
 
 print("Printing all nodes of a tree at level k using queues:")
-BSTOperations.print_all_nodes_at_level_k_using_queues(sample_bst1, 3)
+BSTOperations.print_all_nodes_at_level_k_using_queues(sample_bst_1, 3)
 
 print("Printing all nodes of a tree at level k using queues-1:")
-BSTOperations.print_all_nodes_at_level_k_using_queues_1(sample_bst1, 3)
+BSTOperations.print_all_nodes_at_level_k_using_queues_1(sample_bst_1, 3)
+
+print("Validating if a tree is BST or not:")
+print(BSTOperations.is_valid_bst(sample_bst))
+
+sample_bst_2 = Node(100, Node(70, Node(110), Node(80)), Node(150, Node(140)))
+print("Validating if tree-2 is BST or not:")
+print(BSTOperations.is_valid_bst(sample_bst_2))

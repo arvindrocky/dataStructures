@@ -15,7 +15,6 @@ class BST:
                 self.right_node.insert_node(value)
             else:
                 self.right_node = BST(value)
-        pass
 
     def print_in_order_tree(self) -> None:
         if self.left_node:
