@@ -120,3 +120,8 @@ tree_1.print_bft_of_tree()
 
 print("Printing BFT of tree1 using queues:")
 tree_1.print_bft_of_tree_using_queues()
+
+tree_2 = Tree(100, Tree(70, Tree(50), Tree(80, Tree(75, None, Tree(78)))), Tree(110, Tree(105), Tree(120, Tree(115),
+                                                                                                     Tree(125))))
+print("Printing In Order of tree2:")
+tree_2.print_in_order_tree()

@@ -59,6 +59,10 @@ class BSTOperations:
         return node
 
     @staticmethod
+    def find_in_order_successor_of_a_node(node: Node) -> Node:
+        pass
+
+    @staticmethod
     def print_in_order_of_tree(node: Node) -> None:
         # left, root, right
         if not node:
@@ -84,6 +88,19 @@ class BSTOperations:
             BSTOperations.print_in_order_of_tree(node.left_node)
             print(node.value)
             BSTOperations.print_in_order_of_tree(node.right_node)
+
+    @staticmethod
+    def print_in_order_of_tree_using_stack(node: Node) -> None:
+        stack = list()
+        while True:
+            while node:
+                stack.append(node)
+                node = node.left_node
+            if not len(stack):
+                break
+            node = stack.pop()
+            print(node.value)
+            node = node.right_node
 
     @staticmethod
     def print_pre_order_of_tree(node: Node) -> None:
@@ -207,6 +224,9 @@ BSTOperations.print_in_order_of_tree1(sample_bst)
 
 print("Printing In Order-2 of a tree:")
 BSTOperations.print_in_order_of_tree2(sample_bst)
+
+print("Printing In Order of a tree using stack:")
+BSTOperations.print_in_order_of_tree_using_stack(sample_bst)
 
 print("Printing Pre Order of a tree:")
 BSTOperations.print_pre_order_of_tree(sample_bst)
