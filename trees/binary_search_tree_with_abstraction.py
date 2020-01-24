@@ -103,6 +103,30 @@ class BSTOperations:
             node = node.right_node
 
     @staticmethod
+    def print_pre_order_of_tree_using_stack(node: Node) -> None:
+        pre_order_stack = list()
+        pre_order_stack.append(node)
+        while len(pre_order_stack):
+            current_node: Node = pre_order_stack.pop()
+            if current_node:
+                print(current_node.value)
+                pre_order_stack.append(current_node.right_node)
+                pre_order_stack.append(current_node.left_node)
+
+    # @staticmethod
+    # def print_post_order_of_tree_using_stack(node: Node) -> None:
+    #     post_order_list = list()
+    #     while True:
+    #         while node:
+    #             post_order_list.append(node)
+    #             node = node.left_node
+    #         if not len(post_order_list):
+    #             break
+    #         node = post_order_list.pop()
+    #         print(node.value)
+    #         node = node.left_node
+
+    @staticmethod
     def print_pre_order_of_tree(node: Node) -> None:
         # root, left, right
         if not node:
@@ -154,6 +178,15 @@ class BSTOperations:
         else:
             BSTOperations.print_all_nodes_at_level_k(node.left_node, level - 1)
             BSTOperations.print_all_nodes_at_level_k(node.right_node, level - 1)
+
+    @staticmethod
+    def print_all_nodes_at_alternate_levels(node: Node, level: int = 0) -> None:
+        if not node:
+            return
+        if level % 2 == 0:
+            print(node.value)
+        BSTOperations.print_all_nodes_at_alternate_levels(node.left_node, level + 1)
+        BSTOperations.print_all_nodes_at_alternate_levels(node.right_node, level + 1)
 
     @staticmethod
     def print_all_nodes_at_level_k_1(node: Node, level: int = 1, current_level: int = 1) -> None:
@@ -213,6 +246,15 @@ class BSTOperations:
                     node.right_node, node.value, max)
         return False
 
+    @staticmethod
+    def swap_tree_nodes(node: Node) -> Node:
+        if not node:
+            return
+        BSTOperations.swap_tree_nodes(node.left_node)
+        BSTOperations.swap_tree_nodes(node.right_node)
+        node.left_node, node.right_node = node.right_node, node.left_node
+        return node
+
 
 sample_bst = Node(100, Node(50, Node(40), Node(60)), Node(150, Node(140), Node(160)))
 
@@ -230,6 +272,9 @@ BSTOperations.print_in_order_of_tree_using_stack(sample_bst)
 
 print("Printing Pre Order of a tree:")
 BSTOperations.print_pre_order_of_tree(sample_bst)
+
+print("Printing Pre Order of a tree using stack:")
+BSTOperations.print_pre_order_of_tree_using_stack(sample_bst)
 
 print("Printing Post Order of a tree:")
 BSTOperations.print_post_order_of_tree(sample_bst)
@@ -276,9 +321,17 @@ BSTOperations.print_all_nodes_at_level_k_using_queues(sample_bst_1, 3)
 print("Printing all nodes of a tree at level k using queues-1:")
 BSTOperations.print_all_nodes_at_level_k_using_queues_1(sample_bst_1, 3)
 
+print("Printing all nodes of a tree at alternate level:")
+BSTOperations.print_all_nodes_at_alternate_levels(sample_bst_1)
+
 print("Validating if a tree is BST or not:")
 print(BSTOperations.is_valid_bst(sample_bst))
 
 sample_bst_2 = Node(100, Node(70, Node(110), Node(80)), Node(150, Node(140)))
 print("Validating if tree-2 is BST or not:")
 print(BSTOperations.is_valid_bst(sample_bst_2))
+
+print("Printing in order of tree-2 before swapping")
+BSTOperations.print_in_order_of_tree(sample_bst_2)
+print("Printing in order of tree-2 after swapping")
+BSTOperations.print_in_order_of_tree(BSTOperations.swap_tree_nodes(sample_bst_2))
