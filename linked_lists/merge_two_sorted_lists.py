@@ -8,13 +8,13 @@ class Solution:
         return head
 
     def merge_two_lists_helper(self, l1: ListNode, l2: ListNode, head: ListNode, tail: ListNode):
-        if l1 is None and l2 is None:
+        if type(l1) != ListNode and type(l2) != ListNode:
             return head
-        if 11 is None:
-            l2, head, tail = self.append_node(l2, head, tail)
-            return head
-        if l2 is None:
+        if type(l2) != ListNode:
             l1, head, tail = self.append_node(l1, head, tail)
+            return head
+        if type(l1) != ListNode:
+            l2, head, tail = self.append_node(l2, head, tail)
             return head
         if l1.val < l2.val:
             l1, head, tail = self.append_node(l1, head, tail)
