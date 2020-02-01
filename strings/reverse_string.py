@@ -14,6 +14,7 @@ class Solution:
         return input_str
 
     def str_swap(self, s, i, j) -> str:
+        # s[i], s[j] = s[j], s[i]
         temp = list(s)
         temp[i], temp[j] = temp[j], temp[i]
         return "".join(temp)
