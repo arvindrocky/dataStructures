@@ -2,15 +2,22 @@ from typing import List
 
 
 class Vertex:
-    def __init__(self, name: str, state_code: str):
+    def __init__(self, name: str, state_code: str, population_count: int):
         self.name = name
         self.state_code = state_code
+        self.population_count = population_count
 
     def get_name(self) -> str:
         return "{}, {}".format(self.name, self.state_code)
 
+    def get_population_count(self) -> int:
+        return '{:,}'.format(self.population_count)
+
+    def get_vertex_details(self) -> str:
+        return "Name is {} and population count is {}".format(self.get_name(), self.get_population_count())
+
     def print_vertex(self) -> None:
-        print("Vertex is {}".format(self.get_name()))
+        print("Vertex is {} and population count is {}".format(self.get_name(), self.get_population_count()))
 
 
 class Edge:
@@ -26,18 +33,24 @@ class Edge:
 
 
 class Graph:
-    def __init__(self, name: str, list_of_vertices: List[Vertex] = None, list_of_edges: List[Edge] = None):
+    def __init__(self, name: str, list_of_vertices: List[Vertex] = [], list_of_edges: List[Edge] = None):
         self.name = name
-        self.vertex_list = list_of_vertices
         self.edge_list = list_of_edges
+        self.vertex_list = {}
+        for individual_vertex in list_of_vertices:
+            self.add_vertex(individual_vertex)
 
     def add_vertex(self, new_vertex: Vertex) -> None:
-        if new_vertex:
-            self.vertex_list.append(new_vertex)
+        if new_vertex.get_name() in self.vertex_list:
+            raise KeyError
+        self.vertex_list[new_vertex.get_name()] = new_vertex
 
     def add_edge(self, new_edge: Edge) -> None:
         if new_edge:
             self.edge_list.append(new_edge)
+
+    def get_neighbors_of_a_vertex(self, vertex: Vertex) -> List[Vertex]:
+        pass
 
     def print_graph(self) -> None:
         print("Name of the Graph is {}".format(self.name))
@@ -46,8 +59,8 @@ class Graph:
         print("Vertices are {}".format(self.vertex_list))
         print("Edges are {}".format(self.edge_list))
 
-        for vertex in self.vertex_list:
-            vertex.print_vertex()
+        for vertex_name, vertex in self.vertex_list.items():
+            print("Vertex key is {} and vertex details are: {}".format(vertex_name, vertex.get_vertex_details()))
 
         for edge in self.edge_list:
             edge.print_edge()
@@ -58,10 +71,11 @@ class Solution:
         self.create_graph("City Graph")
 
     def create_graph(self, graph_name: str):
-        city1 = Vertex("Atlanta", "GA")
-        city2 = Vertex("Milpitas", "CA")
-        city3 = Vertex("Chicago", "IL")
-        city4 = Vertex("New York", "NY")
+        city1 = Vertex("Atlanta", "GA", 100000)
+        city2 = Vertex("Milpitas", "CA", 200000)
+        city3 = Vertex("Chicago", "IL", 300000)
+        city4 = Vertex("New York", "NY", 400000)
+        city5 = Vertex("Atlanta", "GA", 500000)
 
         edge1 = Edge(city1, city2, 100)
         edge2 = Edge(city1, city3, 200)
@@ -77,6 +91,10 @@ class Solution:
         g.add_vertex(city4)
         g.add_edge(edge4)
 
+        g.print_graph()
+
+        print("=================Adding duplicate vertex==================")
+        g.add_vertex(city5)
         g.print_graph()
 
 
