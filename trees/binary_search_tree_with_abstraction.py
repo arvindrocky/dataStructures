@@ -255,6 +255,17 @@ class BSTOperations:
         node.left_node, node.right_node = node.right_node, node.left_node
         return node
 
+    @staticmethod
+    def create_new_left_node_from_root(node: Node) -> Node:
+        if not node:
+            return
+        BSTOperations.create_new_left_node_from_root(node.left_node)
+        BSTOperations.create_new_left_node_from_root(node.right_node)
+        new_node: Node = Node(node.value)
+        new_node.left_node = node.left_node
+        node.left_node = new_node
+        return node
+
 
 sample_bst = Node(100, Node(50, Node(40), Node(60)), Node(150, Node(140), Node(160)))
 
@@ -335,3 +346,16 @@ print("Printing in order of tree-2 before swapping")
 BSTOperations.print_in_order_of_tree(sample_bst_2)
 print("Printing in order of tree-2 after swapping")
 BSTOperations.print_in_order_of_tree(BSTOperations.swap_tree_nodes(sample_bst_2))
+print("Printing in order of tree-2 after restoring")
+BSTOperations.print_in_order_of_tree(BSTOperations.swap_tree_nodes(sample_bst_2))
+
+# a=1; b=2; c=3; d=4; e=5;
+# badce
+# bbaaddceec => 2211443553
+sample_bst_3 = Node(1, Node(2), Node(3, Node(4), Node(5)))
+print("Printing in order of tree-3 before creating new node from root node:")
+BSTOperations.print_in_order_of_tree(sample_bst_3)
+print("Printing in order of tree-3 after creating new node from root node:")
+BSTOperations.print_in_order_of_tree(BSTOperations.create_new_left_node_from_root(sample_bst_3))
+print("---------")
+BSTOperations.print_in_order_of_tree(sample_bst_3)
