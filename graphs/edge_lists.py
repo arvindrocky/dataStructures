@@ -2,15 +2,15 @@ from typing import List
 
 
 class Vertex:
-    def __init__(self, name: str, vertex_id: int):
+    def __init__(self, name: str, state_code: str):
         self.name = name
-        self.id = vertex_id
+        self.state_code = state_code
 
     def get_name(self) -> str:
-        return self.name
+        return "{}, {}".format(self.name, self.state_code)
 
     def print_vertex(self) -> None:
-        print("Vertex name id is {} and name is {}".format(self.id, self.name))
+        print("Vertex is {}".format(self.get_name()))
 
 
 class Edge:
@@ -58,10 +58,10 @@ class Solution:
         self.create_graph("City Graph")
 
     def create_graph(self, graph_name: str):
-        city1 = Vertex("Atlanta", 0)
-        city2 = Vertex("Milpitas", 1)
-        city3 = Vertex("Chicago", 2)
-        city4 = Vertex("New York", 3)
+        city1 = Vertex("Atlanta", "GA")
+        city2 = Vertex("Milpitas", "CA")
+        city3 = Vertex("Chicago", "IL")
+        city4 = Vertex("New York", "NY")
 
         edge1 = Edge(city1, city2, 100)
         edge2 = Edge(city1, city3, 200)
