@@ -31,6 +31,12 @@ class Edge:
                                                               self.destination_vertex.get_name(),
                                                               self.weight))
 
+    def get_source_vertex(self) -> Vertex:
+        return self.source_vertex
+
+    def get_destination_vertex(self) -> Vertex:
+        return self.destination_vertex
+
 
 class Graph:
     def __init__(self, name: str, list_of_vertices: List[Vertex] = [], list_of_edges: List[Edge] = None):
@@ -49,8 +55,17 @@ class Graph:
         if new_edge:
             self.edge_list.append(new_edge)
 
-    def get_neighbors_of_a_vertex(self, vertex: Vertex) -> List[Vertex]:
-        pass
+    def get_neighbors_of_a_vertex(self, source_vertex: Vertex) -> List[Vertex]:
+        if not source_vertex:
+            return []
+        neighbors = set()
+        for edge in self.edge_list:
+            if edge.get_source_vertex() == source_vertex:
+                neighbors.add(edge.get_destination_vertex().get_name())
+            if edge.get_destination_vertex() == source_vertex:
+                neighbors.add(edge.get_source_vertex().get_name())
+        return list(neighbors)
+
 
     def print_graph(self) -> None:
         print("Name of the Graph is {}".format(self.name))
@@ -93,9 +108,11 @@ class Solution:
 
         g.print_graph()
 
-        print("=================Adding duplicate vertex==================")
-        g.add_vertex(city5)
-        g.print_graph()
+        # print("=================Adding duplicate vertex==================")
+        # g.add_vertex(city5)
+        # g.print_graph()
+
+        print("Printing all neighbors or Vertex {}: {}".format(city1.get_name(), g.get_neighbors_of_a_vertex(city1)))
 
 
 sol = Solution()
