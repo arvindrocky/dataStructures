@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/dataStructures.iml" filepath="$PROJECT_DIR$/.idea/dataStructures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../gpss-consolidatedmovement/.idea/gpss-consolidatedmovement.iml" filepath="$PROJECT_DIR$/../../gpss-consolidatedmovement/.idea/gpss-consolidatedmovement.iml" />
     </modules>
   </component>
 </project>

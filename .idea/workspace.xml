@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a0b0d74-cb87-4cba-bae5-942ef4f02fd9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/subsets_count_equal_to_sum_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/subsets_count_equal_to_sum_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strings/387_first_unique_character.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strings/443_string_compression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataStructures.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataStructures.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strings/reverse_string.py" beforeDir="false" afterPath="$PROJECT_DIR$/strings/344_reverse_string.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trees/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/trees/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trees/binary_search_tree_with_abstraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/trees/binary_search_tree_with_abstraction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trees/display_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/trees/display_tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trees/merge_trees.py" beforeDir="false" afterPath="$PROJECT_DIR$/trees/merge_trees.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trees/right_side_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/trees/right_side_view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trees/tree_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/trees/tree_node.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,58 +23,103 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="dataStructures" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/subsets.py">
+        <entry file="file://$PROJECT_DIR$/linked_lists/reverse_linked_list.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+            <state relative-caret-position="828">
+              <caret line="47" column="26" selection-start-line="47" selection-end-line="48" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/permutations.py">
+        <entry file="file://$PROJECT_DIR$/linked_lists/merge_two_sorted_lists.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strings/344_reverse_string.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="23" column="35" selection-start-line="22" selection-end-line="23" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strings/443_string_compression.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/subsets_count_equal_to_sum.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" selection-start-line="25" selection-end-line="25" selection-end-column="49" />
+              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/subsets_count_equal_to_sum_1.py">
+        <entry file="file://$PROJECT_DIR$/strings/prefix_trees.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+            <state relative-caret-position="162">
+              <caret line="45" column="23" lean-forward="true" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/subsets_sum_equal_to_n.py">
+        <entry file="file://$PROJECT_DIR$/strings/415_add_strings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+            <state relative-caret-position="576">
+              <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/subsets_1.py">
+        <entry file="file://$PROJECT_DIR$/strings/387_first_unique_character.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="216">
+              <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strings/check_if_palindrome.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recursion/n_queens.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/linked_lists/linked_list_operations.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -75,6 +133,23 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>'OriginalDestination</find>
+      <find>OriginalDestination</find>
+      <find>generate_movement_tickets</find>
+      <find>queue</find>
+      <find>print_in_order_of_tree_using_stack</find>
+      <find>print_pre_order_of_tree</find>
+      <find>compare</find>
+      <find>left_node</find>
+      <find>value</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>left</replace>
+      <replace>val</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -85,14 +160,47 @@
         <option value="$PROJECT_DIR$/subsets_count.py" />
         <option value="$PROJECT_DIR$/subsets_1.py" />
         <option value="$PROJECT_DIR$/subsets_count_equal_to_sum_1.py" />
+        <option value="$PROJECT_DIR$/n_stairs.py" />
+        <option value="$PROJECT_DIR$/n_stairs_1.py" />
+        <option value="$PROJECT_DIR$/n_queens.py" />
+        <option value="$PROJECT_DIR$/../../gpss-consolidatedmovement/lambda/CMReconProcess/order_providers/trips2_order_provider.py" />
+        <option value="$PROJECT_DIR$/regex_matcher.py" />
+        <option value="$PROJECT_DIR$/regex_matcher_1.py" />
+        <option value="$PROJECT_DIR$/trees/find_path_where_sum_is_k.py" />
+        <option value="$PROJECT_DIR$/trees/binary_search_tree.py" />
+        <option value="$PROJECT_DIR$/trees/basic_tree_operation.py" />
+        <option value="$PROJECT_DIR$/trees/compare_two_trees.py" />
+        <option value="$PROJECT_DIR$/trees/compare_in_order_of_two_trees.py" />
+        <option value="$PROJECT_DIR$/../../gpss-consolidatedmovement/lambda/CMReconProcess/movement_ticket_processors/movement_ticket_with_order_processor.py" />
+        <option value="$PROJECT_DIR$/trees/binary_search_tree_with_abstraction.py" />
+        <option value="$PROJECT_DIR$/trees/tree_node.py" />
+        <option value="$PROJECT_DIR$/trees/__init__.py" />
+        <option value="$PROJECT_DIR$/trees/display_tree.py" />
+        <option value="$PROJECT_DIR$/trees/merge_trees.py" />
+        <option value="$PROJECT_DIR$/trees/right_side_view.py" />
+        <option value="$PROJECT_DIR$/linked_lists/__init__.py" />
+        <option value="$PROJECT_DIR$/linked_lists/happy_number.py" />
+        <option value="$PROJECT_DIR$/linked_lists/linked_list_operations.py" />
+        <option value="$PROJECT_DIR$/linked_lists/linked_list_cycle.py" />
+        <option value="$PROJECT_DIR$/linked_lists/find_cycle_starting_point.py" />
+        <option value="$PROJECT_DIR$/linked_lists/list_node.py" />
+        <option value="$PROJECT_DIR$/linked_lists/reverse_linked_list.py" />
+        <option value="$PROJECT_DIR$/linked_lists/merge_two_sorted_lists.py" />
+        <option value="$PROJECT_DIR$/strings/check_if_palindrome.py" />
+        <option value="$PROJECT_DIR$/strings/reverse_string.py" />
+        <option value="$PROJECT_DIR$/strings/prefix_trees.py" />
+        <option value="$PROJECT_DIR$/strings/add_strings_415.py" />
+        <option value="$PROJECT_DIR$/strings/415_add_strings.py" />
+        <option value="$PROJECT_DIR$/strings/387_first_unique_character.py" />
+        <option value="$PROJECT_DIR$/strings/443_string_compression.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1352" />
-    <option name="y" value="-8" />
-    <option name="width" value="696" />
-    <option name="height" value="625" />
+    <option name="x" value="2247" />
+    <option name="y" value="276" />
+    <option name="width" value="1030" />
+    <option name="height" value="626" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -100,23 +208,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="dataStructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dataStructures" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -130,8 +229,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.subsets_count_equal_to_sum_1">
-    <configuration name="subsets" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="AWS Lambda.[Remote] ask-python36-fact-0a6641f83659">
+    <configuration name="387_first_unique_character" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,11 +238,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/strings" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/subsets.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/strings/387_first_unique_character.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -152,7 +251,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="subsets_count" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="415_add_strings" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -160,11 +259,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/strings" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\arvind.dathathri\Projects\git\arv\dataStructures\subsets_count_equal_to_sum.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/strings/415_add_strings.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,7 +272,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="subsets_count_equal_to_sum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="prefix_trees" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -181,11 +280,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/strings" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/subsets_count_equal_to_sum.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/strings/prefix_trees.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -194,7 +293,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="subsets_count_equal_to_sum_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="reverse_linked_list" type="PythonConfigurationType" factoryName="Python">
       <module name="dataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -202,11 +301,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/linked_lists" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/subsets_count_equal_to_sum_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linked_lists/reverse_linked_list.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -215,7 +314,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="subsets_sum_equal_to_n" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="reverse_string" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -223,26 +322,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/strings" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/subsets_sum_equal_to_n.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\arvind.dathathri\Projects\git\arv\dataStructures\strings\344_reverse_string.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="[Remote] ask-python36-fact-0a6641f83659" type="aws.lambda" factoryName="Remote" temporary="true" nameIsGenerated="true">
+      <option name="credentialProviderId" value="profile:arv_root" />
+      <option name="regionId" value="us-east-1" />
+      <option name="functionName" value="ask-python36-fact-0a6641f83659" />
+      <option name="input" />
+      <option name="inputIsFile" value="false" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.subsets_count_equal_to_sum_1" />
-        <item itemvalue="Python.subsets_count_equal_to_sum" />
-        <item itemvalue="Python.subsets_sum_equal_to_n" />
-        <item itemvalue="Python.subsets_count" />
-        <item itemvalue="Python.subsets" />
+        <item itemvalue="AWS Lambda.[Remote] ask-python36-fact-0a6641f83659" />
+        <item itemvalue="Python.prefix_trees" />
+        <item itemvalue="Python.387_first_unique_character" />
+        <item itemvalue="Python.415_add_strings" />
+        <item itemvalue="Python.reverse_string" />
       </list>
     </recent_temporary>
   </component>
@@ -269,71 +376,401 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1352" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info id="aws.explorer" order="3" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4994641" visible="true" weight="0.17324094" />
+      <window_info id="Structure" order="1" sideWeight="0.5005359" side_tool="true" weight="0.17324094" />
+      <window_info id="Favorites" order="2" sideWeight="0.5005359" side_tool="true" weight="0.17324094" />
+      <window_info id="aws.explorer" order="3" sideWeight="0.5005359" side_tool="true" visible="true" weight="0.17324094" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3290461" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978564" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3290461" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.3601286" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.3290461" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3290461" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053304" side_tool="true" weight="0.29367632" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.22936763" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="right" id="R Packages" order="4" />
+      <window_info anchor="right" id="Run" order="5" sideWeight="0.49946696" weight="0.3704691" />
     </layout>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/trees/binary_search_tree_with_abstraction.py</url>
+          <line>259</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>type(l2) == ListNode</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>type(l1) == ListNode</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>type(l1) == NoneType</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>type(l1) == None</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>type(l1)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>isinstance(l1, None)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>isinstance(l1, NoneType)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>isinstance(l1, 'NoneType')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>type(l1) is isinstance(l1, 'NoneType')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/permutations.py">
+    <entry file="file://$PROJECT_DIR$/permutations.py" />
+    <entry file="file://$PROJECT_DIR$/subsets_1.py" />
+    <entry file="file://$PROJECT_DIR$/subsets.py" />
+    <entry file="file://$PROJECT_DIR$/subsets_count_equal_to_sum.py" />
+    <entry file="file://$PROJECT_DIR$/subsets_sum_equal_to_n.py" />
+    <entry file="file://$PROJECT_DIR$/subsets_count_equal_to_sum_1.py" />
+    <entry file="file://$PROJECT_DIR$/n_stairs_1.py" />
+    <entry file="file://$PROJECT_DIR$/n_queens.py" />
+    <entry file="file://$PROJECT_DIR$/n_stairs.py" />
+    <entry file="file://$PROJECT_DIR$/regex_matcher.py" />
+    <entry file="file://$PROJECT_DIR$/regex_matcher_1.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="315" column="37" lean-forward="true" selection-start-line="315" selection-start-column="37" selection-end-line="315" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/1072768571/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="488" column="4" selection-start-line="488" selection-start-column="4" selection-end-line="488" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../gpss-consolidatedmovement/lambda/CMRawInboundProcessing/cm_raw_inbound_processing.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../gpss-consolidatedmovement/lambda/CMReconProcess/cm_recon_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../gpss-consolidatedmovement/lambda/CMReconProcess/cm_util/constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="42" column="27" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../gpss-consolidatedmovement/lambda/CMReconProcess/parsers/trips2_bol_parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="75" column="82" selection-start-line="75" selection-start-column="57" selection-end-line="75" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../gpss-consolidatedmovement/lambda/CMReconProcess/movement_ticket_processors/movement_ticket_generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="43" column="84" selection-start-line="43" selection-start-column="84" selection-end-line="43" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../gpss-consolidatedmovement/lambda/CMReconProcess/order_providers/trips2_order_provider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3888">
+          <caret line="227" column="43" selection-start-line="227" selection-start-column="43" selection-end-line="227" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../gpss-consolidatedmovement/lambda/CMReconProcess/movement_ticket_processors/movement_ticket_with_order_processor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="95" column="52" selection-start-line="95" selection-start-column="52" selection-end-line="95" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../gpss-consolidatedmovement/lambda/CMReconProcess/models/bill_of_lading_detail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../gpss-consolidatedmovement/lambda/CMReconProcess/models/order.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/subsets_1.py">
+    <entry file="file://$PROJECT_DIR$/../../gpss-consolidatedmovement/lambda/CMReconProcess/models/order_item.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="234">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/subsets.py">
+    <entry file="file://$PROJECT_DIR$/../../gpss-consolidatedmovement/lambda/CMReconProcess/models/movement_ticket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../gpss-consolidatedmovement/lambda/CMReconProcess/models/drop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trees/basic_tree_operation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trees/binary_search_tree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/subsets_sum_equal_to_n.py">
+    <entry file="file://$PROJECT_DIR$/trees/binary_search_tree_with_abstraction.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        <state relative-caret-position="2538">
+          <caret line="197" column="29" selection-start-line="197" selection-start-column="28" selection-end-line="197" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+            <element signature="e#387#653#0" />
+            <element signature="e#734#1536#0" />
+            <element signature="e#1607#1708#0" />
+            <element signature="e#1779#1882#0" />
+            <element signature="e#1973#1977#0" />
+            <element signature="e#2346#2616#0" />
+            <element signature="e#2697#2894#0" />
+            <element signature="e#2986#3266#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/subsets_count_equal_to_sum.py">
+    <entry file="file://$PROJECT_DIR$/trees/display_tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" selection-start-line="25" selection-end-line="25" selection-end-column="49" />
+        <state relative-caret-position="918">
+          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/subsets_count_equal_to_sum_1.py">
+    <entry file="file://$PROJECT_DIR$/trees/tree_node.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        <state relative-caret-position="90">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trees/compare_in_order_of_two_trees.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trees/find_path_where_sum_is_k.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trees/compare_two_trees.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trees/merge_trees.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trees/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linked_lists/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trees/right_side_view.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linked_lists/linked_list_cycle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linked_lists/happy_number.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linked_lists/list_node.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linked_lists/find_cycle_starting_point.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1998">
+          <caret line="111" column="12" selection-start-line="109" selection-end-line="111" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linked_lists/reverse_linked_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="47" column="26" selection-start-line="47" selection-end-line="48" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linked_lists/merge_two_sorted_lists.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strings/344_reverse_string.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="35" selection-start-line="22" selection-end-line="23" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strings/443_string_compression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strings/415_add_strings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strings/387_first_unique_character.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strings/check_if_palindrome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recursion/n_queens.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linked_lists/linked_list_operations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strings/prefix_trees.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="45" column="23" lean-forward="true" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
         </state>
       </provider>
     </entry>
